@@ -1,0 +1,112 @@
+body{
+	background: #fafafa;
+}
+
+.mdl-cell{
+	/* background: #c1c1c1; */
+}
+
+.mdl-layout__drawer{
+	background: rgba(0, 0, 0, 0.8) !important;
+	border: 0px !important;
+	color: #fff !important;
+}
+
+/* .mdl-navigation__link{
+	color: #fff !important;
+	} */ 
+
+	#fundopreto{
+		background: #000 !important;
+	}
+	.mdl-layout__drawer-button{
+		background: transparent !important;
+	}
+
+	.mdl-mini-footer {
+		position:absolute;
+		bottom:0;
+		width:100%;
+	}
+
+	header{
+		background: rgba(0, 0, 0, 0.8) !important;
+		
+	}
+
+	footer{
+		background: transparent !important;
+		box-shadow: #fff 1px 1px 6px 4px;
+		color: #fff !important;
+		max-height: 30px !important;
+	}
+
+	header, section{
+		border-bottom: 1px solid black;
+	}
+
+	.mdl-cell{
+
+		margin: 0px;
+		
+	}
+
+	.mdl-card{
+		margin: 0px !important;
+	}
+
+
+	.mdl-grid{
+		
+		margin: 0px !important;
+		color: #fff !important;
+	}
+
+	.background-cinza{
+		background: #eee;
+		min-height: 50px;
+	}
+
+	.transparent{
+		background: url('img/download3.jpg') center / cover;
+	}
+
+	nav.mdl-navigation .mdl-badge[data-badge]:after{
+		top: 5px;
+		right: -8px;
+	}
+
+
+
+
+	.titlecard{
+		color: #000;
+	}
+
+	.demostracao-card{
+		width: 600px !important;
+		background: rgba(0, 0, 0, 0.5) !important;
+
+	}
+
+
+
+	.demostracao-card > .mdl-card__title{
+		color: #000 !important;
+		height: 176px;
+		background: url('img/iphone6s1.png') center / cover;
+
+	}
+
+	
+	.titlecard{
+		color: #fff !important;
+	}
+
+	.demostracao-card > .mdl-card__menu{
+		color: #fff;
+	}
+
+	.mdl-card__supporting-text{
+		color: #fff !important;
+	}
