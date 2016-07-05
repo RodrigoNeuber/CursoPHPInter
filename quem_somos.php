@@ -65,9 +65,11 @@
 					</div>
 					<div class="mdl-card__supporting-text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue urna libero, sit amet mattis risus finibus ac. Aenean metus quam, consectetur at pretium vitae, aliquam nec lorem. Donec ligula tortor, elementum eget ullamcorper quis, vestibulum sed nunc
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue urna libero, sit amet mattis risus finibus ac. Aenean metus quam, consectetur at pretium vitae, aliquam nec lorem. Donec ligula tortor, elementum eget ullamcorper quis, vestibulum sed nunc
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue urna libero, sit amet mattis risus finibus ac. Aenean metus quam, consectetur at pretium vitae, aliquam nec lorem. Donec ligula tortor, elementum eget ullamcorper quis, vestibulum sed nunc
 					</div>
 					<div class=" mdl-card__actions mdl-card--border">
-						<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" data-upgraded=",MaterialButton,MaterialRipple">Acess<span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></button>
+						<a href="quem_somos.php"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" data-upgraded=",MaterialButton,MaterialRipple">Acess<span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></button></a>
 					</div>
 					<div class="mdl-card__menu">
 						<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" data-upgraded=",MaterialButton,MaterialRipple">

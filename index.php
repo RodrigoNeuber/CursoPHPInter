@@ -17,70 +17,64 @@
 </head>
 <body>
 
-	<div class=" transparent mdl-layout mdl-js-layout mdl-layout--fixed-header ">
-		<header class="mdl-layout__header">
-			<div class="mdl-layout__header-row">
-				<span class="mdl-layout-title"> PHP INTERMEDIÁRIO</span>
-				<div class="mdl-layout-spacer"></div>
+	<div class="mdl-layout__container">
+		<div class=" transparent mdl-layout mdl-js-layout mdl-layout--fixed-header has-drawer is-small-screen is-upgraded">
+			<header class="mdl-layout__header">
+				<div class="mdl-layout__header-row">
+					<span class="mdl-layout-title"> PHP INTERMEDIÁRIO</span>
+					<div class="mdl-layout-spacer"></div>
 
-				<form action="">
-					<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-						<label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
-							<i class="material-icons">search</i>
-						</label>
-						<div class="mdl-textfield__expandable-holder">
-							<input class="mdl-textfield__input" type="text" id="sample6">
-							<label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
+					<form action="">
+						<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+							<label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+								<i class="material-icons">search</i>
+							</label>
+							<div class="mdl-textfield__expandable-holder">
+								<input class="mdl-textfield__input" type="text" id="sample6">
+								<label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
+							</div>
 						</div>
-					</div>
-				</form>
+					</form>
 
-				<nav class="mdl-navigation">
+					<nav class="mdl-navigation">
 
-					<a href="index.php" class="mdl-navigation__link">HOME</a>
-
-				</nav>
-
-				
-				
-			</header>
-			<div class="mdl-layout__drawer" >
-				<span id="fundopreto" class="mdl-layout-title">INTRODUÇÃO
-					<i class="material-icons">dashboard</i>
-				</span>
-				<nav class="mdl-navigation">
-					<div class="mostra-celular">
 						<a href="index.php" class="mdl-navigation__link">HOME</a>
-						<a href="empresa.php" class="mdl-navigation__link">EMPRESA</a>
-						<a href="quem_somos.php" class="mdl-navigation__link">SOBRE</a>
-						<a href="contado.php" class="mdl-navigation__link">CONTATOS</a>
-					</div>
-				</nav>
-			</div>
 
-			<div class="mdl-grid">
-				<div class="mdl-cell mdl-cell--12-col">
-					<div class="backgroung-cinza">
-						
+					</nav>
+
+
+
+				</header>
+				<div class="mdl-layout__drawer" >
+					<span id="fundopreto" class="mdl-layout-title">INTRODUÇÃO
+						<i class="material-icons">dashboard</i>
+					</span>
+					<nav class="mdl-navigation">
+						<div class="mostra-celular">
+							<a href="index.php" class="mdl-navigation__link">HOME</a>
+							<a href="empresa.php" class="mdl-navigation__link">EMPRESA</a>
+							<a href="quem_somos.php" class="mdl-navigation__link">SOBRE</a>
+							<a href="contado.php" class="mdl-navigation__link">CONTATOS</a>
+						</div>
+					</nav>
+				</div>
+
+				<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--12-col fundopadrao">
+
+						<?php
+
+						home();
+
+						?>
 
 					</div>
 				</div>
-			</div>
 
-			<div class="mdl-grid">
-				<div class="mdl-cell mdl-cell--12-col">
-
-					<?php
-
-					home();
-
-					?>
-
-				</div>
-			</div>
-
-			<div class="mdl-grid">
-				<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+				<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet fundopadrao"><div align="center" class=" mdl-card__actions mdl-card--border">
+						<p>PHP HOME 1</p>
+					</div>
 
 					<?php
 
@@ -89,7 +83,7 @@
 					?>
 
 				</div>
-				<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+				<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet fundopadrao">
 
 					<?php
 
@@ -100,9 +94,8 @@
 				</div>
 			</div>
 
-
 		</div>
-
+	</div>
 	<!--	<footer class="mdl-mini-footer">
 			<div class="mdl-mini-footer--link-list">
 				<ul class="mdl-mini-footer--link-list">

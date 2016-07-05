@@ -19,6 +19,12 @@ body{
 	#fundopreto{
 		background: #000 !important;
 	}
+
+	.fundopadrao{
+		background: rgba(0, 0, 0, 0.5) !important;
+		border-radius: 20px;
+
+	}
 	.mdl-layout__drawer-button{
 		background: transparent !important;
 	}
@@ -68,7 +74,7 @@ body{
 	}
 
 	.transparent{
-		background: url('img/download3.jpg') center / cover;
+		background: url('img/download.jpg') center / cover;
 	}
 
 	nav.mdl-navigation .mdl-badge[data-badge]:after{
@@ -86,6 +92,7 @@ body{
 	.demostracao-card{
 		width: 600px !important;
 		background: rgba(0, 0, 0, 0.5) !important;
+		border-radius: 0px !important;
 
 	}
 
